@@ -77,6 +77,7 @@ new Vue({
 ```
 
 3.在Demo.vue中写入事件名：（点击的时候，依次增加）, 具体见Demo.vue
+**Vuex两个重要的方法：mapActions（管理所有的事件）和mapGetters（获取所有的数据）**
 
 HTML代码：
 
@@ -97,7 +98,7 @@ js代码：
     })
   }
   methods: {
-    ...mapActions({
+    ...mapActions({ // 处理注册事件
       'increment': 'increment',
     })
   }
