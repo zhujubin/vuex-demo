@@ -13,9 +13,11 @@
 - view，以声明方式将 state 映射到视图；
 - actions，响应在 view 上的用户输入导致的状态变化
 
-'单向数据流'结构的示意图：[](https://vuex.vuejs.org/zh-cn/images/flow.png)
+'单向数据流'结构的示意图：
+  ![](https://vuex.vuejs.org/zh-cn/images/flow.png)
 
-官方的vuex的工作流程图：[](https://vuex.vuejs.org/zh-cn/images/vuex.png)
+官方的vuex的工作流程图：
+  ![](https://vuex.vuejs.org/zh-cn/images/vuex.png)
 
 *2*.每一个 Vuex 应用的核心就是 store（仓库），通过改变*提交*(commit) mutation，来改变store中的状态，几种状态： State, Getters, Actions, Mutations
 
