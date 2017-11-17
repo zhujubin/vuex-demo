@@ -1,4 +1,4 @@
-# 一个简单的vuex的自学demo
+# 一个简单的vuex-demo
 
 可以参考vuex官网：[vuex.vuejs.org](https://vuex.vuejs.org) 文档来学习
 
