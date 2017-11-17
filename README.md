@@ -21,7 +21,7 @@
 
 *2*.每一个 Vuex 应用的核心就是 store（仓库），通过改变*提交*(commit) mutation，来改变store中的状态，几种状态： State, Getters, Actions, Mutations
 
-话不多少，直接上简单的vuex代码：
+话不多少，直接上代码：
 
 1.首先创建一个store.js文件，代码如下
 
@@ -103,4 +103,14 @@ js代码：
     })
   }
 ```
+项目运行
+```
+git clone https://github.com/guixianleng/vuex-demo.git
 
+cd vuex-demo
+
+npm install
+
+npm run dev
+
+```
